@@ -1,0 +1,15 @@
+{
+  "name": "ims-telegram-bot",
+  "version": "1.0.0",
+  "description": "This is a bot that I created for ease of access to attendance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jrseinc",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
