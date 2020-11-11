@@ -2,44 +2,172 @@ const { Telegraf } = require('telegraf');
 const Stage = require('telegraf/stage');
 const WizardScene = require('telegraf/scenes/wizard');
 const Composer = require('telegraf/composer');
+const Extra = require('telegraf/extra');
+const Markup = require('telegraf/markup')
 const session = require('telegraf/session');
+const mongoose = require('mongoose');
+const IDMap = require('./Modules/idSchema');
+const attendanceMap = require('./Modules/attendanceSchema');
+const { createIndexes } = require('./Modules/idSchema');
+const fetch = require("node-fetch");
+const attendanceJsonFile = require('./attendance.json');
 
 require('dotenv').config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
+const bot = new Telegraf(process.env.BOT_TOKEN);
 
-let Data = [];
+mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser : true,  
+	useUnifiedTopology: true }, function(error) { 
+		if (error) { 
+			console.log("Error!" + error); 
+		}else{
+			console.log("Atlas Database Status: " + mongoose.connection.readyState);
+		}
+});
 
-
+const data = attendanceJsonFile.attendance;
 //*********************************
-//Place for helper Function for handlers
+//Place for helper Function of handlers
 
 //function to get the current user attendance attendance
-const myAttendance = function(ctx){
+const myAttendance = async function(ctx){
     //check if the users chat id exist in the database
-    const chatID = ctx.chat.id;
-    if(chatID in Data){
-        
-    }else{
-        ctx.reply("Unfortunately we don't have your College ID in our database. Don't worry use /SetID to set your ID, and we will remember it for you form now on. You can reuse it anytime to make a change 👩‍🚀.");
-    }
+    // const chatID = ctx.chat.id;
+	// await IDMap.find({chatID : chatID })
+	// .then(data => {
+	// 	console.log(`chatID: ${chatID}, is trying to access attendance (self) of ${data[0].collegeID}`);
+	// 	getAttendance(ctx, data[0].collegeID.toUpperCase());
+	// });
+	
 }
 
-//function to store current user attendance
+//function to save collegeID the the current user to the database
+const saveData = function (target){
+	//validate the college id in target before saving to database
+	const IDcontainer = new IDMap({
+		_id: new mongoose.Types.ObjectId(),
+		chatID : target.chatID,
+		collegeID : target.collegeID
+	}); 
+	IDcontainer
+	.save()
+	.then(result => {
+		console.log(result);	
+	})
+	.catch(err => {
+		console.log(err);
+	});
+}
+
+const assignEmoji = function(value){
+	let emoji = '';
+
+	if(value <= 40){
+		emoji = '🔴';
+	}else if(value > 40 && value <= 60){
+		emoji = '🟡';
+	}else if(value > 60){
+		emoji = '🟢';
+	}
+	return emoji;
+}
+
+//function to get attendance for the user with provided target college ID
+const getAttendance = function(ctx, targetCollegeID){
+	attendanceMap.find({college_id : targetCollegeID}, (err, data) => {
+		if(err)
+			console.log(err);
+		else{
+			attendanceData = data[0];
+			// console.log(attendanceData);
+
+			const overallAttendanceEmoji = assignEmoji(attendanceData.percentage);
+
+			// console.log(attendanceData["attendances	"]);
+
+			let introMsg = `Name: ${attendanceData.name}
+			College ID: ${attendanceData.college_id}
+			Roll Number: ${attendanceData.roll_number}\n			
+			Total Classes: ${attendanceData.classes_total}
+			Classes Attended: ${attendanceData.classes_total_attended}
+			Overall Percentage: ${attendanceData.percentage}% ${overallAttendanceEmoji}\n
+			
+			Subject Wise Attendance\n\n`;
+
+			let detailMsg = '';
+			
+			const subjectAttendanceList = attendanceData["attendances"];
+			for(const item of subjectAttendanceList){
+				let tempMsg = `${assignEmoji((item.attended_classes/item.total_classes)*100)} Subject Code: ${item.subject_id}
+				Total Classes: ${item.total_classes}
+				Attended: ${item.attended_classes}
+				Percentage: ${((item.attended_classes/item.total_classes)*100).toFixed(2)}%\n\n`;
+				detailMsg = detailMsg + tempMsg + " ";
+			}
+			introMsg = introMsg + detailMsg;
+			ctx.reply(introMsg);
+		}
+	
+	});
+};
+
+//conversation block to store current user collegeID
 //**here setID is the name of the wizard and setID_Enter is the way to enter the wizard block. This Wizard thing is not clear to me right now. 
 //https://github.com/telegraf/telegraf/issues/705 this is the best tutorial that I could find.
+const setID_StepHandler = new Composer();
+setID_StepHandler.action('Yes', (ctx) => {
+	ctx.wizard.next();
+});
+setID_StepHandler.action('No', (ctx) => {
+	ctx.wizard.selectStep(0);
+});
+
 const setID = new WizardScene(
     'setID_Enter',
     (ctx) => {
-        ctx.reply("inside wizard wating for college id");
+        ctx.reply('Provide me your college ID 👨‍🚀.\nYour college ID may look like this 👉"A2017CSE5000"');
         ctx.wizard.state.IDData = {};
         return ctx.wizard.next();
     },
     (ctx) => {
-        //perform some validation here. If the validation fails, use return; to get back to the same state and wait for the user to reinput it again
+		const collegeID = ctx.message.text;
+		ctx.wizard.state.IDData.chatID = ctx.chat.id;
+		ctx.wizard.state.IDData.collegeID = collegeID;
+		ctx.reply(`Do you want to save ~<b><i>${collegeID}</i></b>~ as your default College ID?`, 
+			Extra.HTML().markup((m) =>
+			m.inlineKeyboard([
+			m.callbackButton('👍', 'Yes'),
+			m.callbackButton('👎', 'No')])));
+		return ctx.wizard.next();	
+	},
+	setID_StepHandler,
+	async (ctx) => {
+		ctx.reply("Thank you your college id will be updated shortly 🚀");
+		await saveData({
+			chatID : ctx.wizard.state.IDData.chatID,
+			collegeID : ctx.wizard.state.IDData.collegeID
+		}); 
+		return ctx.scene.leave();
+	}
+);
 
-        //if the validation passes store it into the database (async) and leave the conversation using --return ctx.scene.leave();
-    }
+//conversation block for getting someone else college ID
+
+const getElseID = new WizardScene(
+	'getElseId_Enter',
+	(ctx) =>{
+		ctx.reply("Enter the College ID of the desired student:");
+		ctx.wizard.state.IDData =  {};
+		return ctx.wizard.next();
+	},
+	async (ctx) => {
+		collegeID = ctx.message.text;
+		ctx.reply(`Trying to fetch data for ${collegeID} 👨‍🚀`); 
+		console.log(`chatID: ${ctx.chat.id}, is trying to access attendance (else) of ${collegeID}`);
+		await getAttendance(ctx, collegeID.toUpperCase());
+		return ctx.scene.leave();
+	}
+	
 );
 
 //**************************************
@@ -51,18 +179,25 @@ const welcomeMsg = `I'm a bot, and I have power to do simple things like fetchin
 
 //****************************
 //Place to handel all commands.
+bot.use(session());
 
 //this is the start (welcome) command
 bot.start( ctx => { ctx.reply(welcomeMsg) });
+
 //this is for the attendance of a the particular user
 bot.command(['MyAttendance', 'myattendance'], (ctx) => myAttendance(ctx));
+
+//this is for the attendance of a different student 
+const getElseIDStage = new Stage([getElseID]);
+bot.use(getElseIDStage.middleware());
+bot.command(['ElseAttendance', 'elseattendance'], (ctx) => {
+	ctx.scene.enter('getElseId_Enter');
+})
+
 //this is for setting the ID of the current user
 const setIDStage = new Stage([setID]);
-bot.use(session());
 bot.use(setIDStage.middleware());
-
 bot.command(['SetID', 'setid'], (ctx) => {
-    ctx.reply('Provide me your college ID 👨‍🚀.\nYour college ID may look like this 👉"A2017CSE5000"');
     ctx.scene.enter('setID_Enter');
 });
 

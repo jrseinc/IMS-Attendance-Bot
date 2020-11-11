@@ -1,0 +1,2637 @@
+	{
+	"updated_on": "2020-11-03T17:37:22.341040",
+	"attendance": [
+		{
+			"name": "HARSH BHUSHAN RAJWAL",
+			"roll_number": "1714310074",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5168",
+			"classes_total": 166,
+			"classes_total_attended": 136,
+			"percentage": 81.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 29,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5168/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 31,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5168/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 32,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5168/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 35,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5168/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5168/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5168/2235"
+				}
+			]
+		},
+		{
+			"name": "HARSH PRATAP SINGH",
+			"roll_number": "1714310075",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5310",
+			"classes_total": 166,
+			"classes_total_attended": 72,
+			"percentage": 43.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 18,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5310/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 17,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5310/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 22,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5310/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 13,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5310/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5310/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5310/2235"
+				}
+			]
+		},
+		{
+			"name": "HARSH VARDHAN SINGH",
+			"roll_number": "1714310076",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4947",
+			"classes_total": 166,
+			"classes_total_attended": 101,
+			"percentage": 60.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 19,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4947/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 20,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4947/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4947/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 23,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4947/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4947/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4947/2235"
+				}
+			]
+		},
+		{
+			"name": "HIMANSHU VISHWAKARMA",
+			"roll_number": "1714310079",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5272",
+			"classes_total": 166,
+			"classes_total_attended": 153,
+			"percentage": 92.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 34,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5272/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 36,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5272/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 38,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5272/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 38,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5272/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5272/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5272/2235"
+				}
+			]
+		},
+		{
+			"name": "ISHITA VERMA",
+			"roll_number": "1714310081",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5103",
+			"classes_total": 166,
+			"classes_total_attended": 133,
+			"percentage": 80.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 31,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5103/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 32,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5103/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 27,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5103/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 34,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5103/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5103/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5103/2235"
+				}
+			]
+		},
+		{
+			"name": "ITIKA TYAGI",
+			"roll_number": "1714310082",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5292",
+			"classes_total": 166,
+			"classes_total_attended": 142,
+			"percentage": 85.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 30,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5292/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 30,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5292/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 37,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5292/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 37,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5292/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5292/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5292/2235"
+				}
+			]
+		},
+		{
+			"name": "JAGRATI SAHU",
+			"roll_number": "1714310083",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5339",
+			"classes_total": 166,
+			"classes_total_attended": 146,
+			"percentage": 87.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 33,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5339/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 36,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5339/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5339/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 34,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5339/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5339/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5339/2235"
+				}
+			]
+		},
+		{
+			"name": "JATIN SRIVASTAVA",
+			"roll_number": "1714310084",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5084",
+			"classes_total": 166,
+			"classes_total_attended": 47,
+			"percentage": 28.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 14,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5084/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 8,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5084/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 18,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5084/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 6,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5084/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5084/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5084/2235"
+				}
+			]
+		},
+		{
+			"name": "JAY SHARMA",
+			"roll_number": "1714310085",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5172",
+			"classes_total": 166,
+			"classes_total_attended": 61,
+			"percentage": 36.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 16,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5172/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 10,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5172/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 23,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5172/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 12,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5172/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5172/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5172/2235"
+				}
+			]
+		},
+		{
+			"name": "JAYANKAR AWASTHI",
+			"roll_number": "1714310086",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5148",
+			"classes_total": 166,
+			"classes_total_attended": 92,
+			"percentage": 55.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 19,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5148/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 23,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5148/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 28,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5148/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 19,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5148/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5148/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5148/2235"
+				}
+			]
+		},
+		{
+			"name": "JYOTI .",
+			"roll_number": "1714310087",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5469",
+			"classes_total": 166,
+			"classes_total_attended": 106,
+			"percentage": 63.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 21,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5469/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 19,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5469/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5469/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 24,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5469/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5469/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5469/2235"
+				}
+			]
+		},
+		{
+			"name": "KALASH PACHAURI",
+			"roll_number": "1714310088",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5388",
+			"classes_total": 166,
+			"classes_total_attended": 41,
+			"percentage": 24.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 14,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5388/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 9,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5388/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 10,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5388/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 6,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5388/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5388/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5388/2235"
+				}
+			]
+		},
+		{
+			"name": "KAPIL SHARMA",
+			"roll_number": "1714310089",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5268",
+			"classes_total": 166,
+			"classes_total_attended": 128,
+			"percentage": 77.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 25,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5268/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 35,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5268/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 31,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5268/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 31,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5268/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5268/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5268/2235"
+				}
+			]
+		},
+		{
+			"name": "KESHAV KUMAR",
+			"roll_number": "1714310091",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5197",
+			"classes_total": 166,
+			"classes_total_attended": 127,
+			"percentage": 76.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 33,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5197/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 31,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5197/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 24,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5197/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 31,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5197/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5197/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5197/2235"
+				}
+			]
+		},
+		{
+			"name": "KM JYOTI RANI",
+			"roll_number": "1714310093",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4908",
+			"classes_total": 166,
+			"classes_total_attended": 153,
+			"percentage": 92.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 32,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4908/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 35,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4908/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 38,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4908/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 38,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4908/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4908/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4908/2235"
+				}
+			]
+		},
+		{
+			"name": "KRISHNANAND SHARMA",
+			"roll_number": "1714310094",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5334",
+			"classes_total": 166,
+			"classes_total_attended": 35,
+			"percentage": 21.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 15,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5334/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 10,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5334/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 9,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5334/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 0,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5334/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5334/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5334/2235"
+				}
+			]
+		},
+		{
+			"name": "KUSHAGRA SRIVASTAVA",
+			"roll_number": "1714310097",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5031",
+			"classes_total": 166,
+			"classes_total_attended": 158,
+			"percentage": 95.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 37,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5031/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 36,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5031/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5031/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 40,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5031/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5031/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5031/2235"
+				}
+			]
+		},
+		{
+			"name": "MANSI .",
+			"roll_number": "1714310101",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5366",
+			"classes_total": 166,
+			"classes_total_attended": 97,
+			"percentage": 58.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 20,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5366/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 22,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5366/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5366/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 19,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5366/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5366/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5366/2235"
+				}
+			]
+		},
+		{
+			"name": "MD PARVEZ .",
+			"roll_number": "1714310103",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5534",
+			"classes_total": 166,
+			"classes_total_attended": 112,
+			"percentage": 67.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 27,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5534/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 32,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5534/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 17,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5534/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 29,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5534/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5534/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5534/2235"
+				}
+			]
+		},
+		{
+			"name": "MEGHA KAMBOJ",
+			"roll_number": "1714310104",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5362",
+			"classes_total": 166,
+			"classes_total_attended": 161,
+			"percentage": 96.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 35,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5362/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 39,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5362/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 38,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5362/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 39,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5362/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5362/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5362/2235"
+				}
+			]
+		},
+		{
+			"name": "MOHIT AGRAWAL",
+			"roll_number": "1714310106",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4948",
+			"classes_total": 166,
+			"classes_total_attended": 88,
+			"percentage": 53.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 19,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4948/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 14,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4948/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 35,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4948/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 17,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4948/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4948/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4948/2235"
+				}
+			]
+		},
+		{
+			"name": "MOHIT SHARMA",
+			"roll_number": "1714310107",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5317",
+			"classes_total": 166,
+			"classes_total_attended": 106,
+			"percentage": 63.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 24,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5317/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 26,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5317/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 30,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5317/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 19,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5317/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5317/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5317/2235"
+				}
+			]
+		},
+		{
+			"name": "MUKHAR BAJPAI",
+			"roll_number": "1714310108",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5098",
+			"classes_total": 166,
+			"classes_total_attended": 112,
+			"percentage": 67.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 29,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5098/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 25,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5098/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 26,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5098/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 26,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5098/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5098/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5098/2235"
+				}
+			]
+		},
+		{
+			"name": "NAMAN GUPTA",
+			"roll_number": "1714310111",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5163",
+			"classes_total": 166,
+			"classes_total_attended": 102,
+			"percentage": 61.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 24,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5163/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 18,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5163/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5163/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 22,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5163/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5163/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5163/2235"
+				}
+			]
+		},
+		{
+			"name": "NAVAID IQBAL SIDDIQUI",
+			"roll_number": "1714310113",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5138",
+			"classes_total": 166,
+			"classes_total_attended": 28,
+			"percentage": 16.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 9,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5138/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 5,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5138/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 7,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5138/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 6,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5138/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5138/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5138/2235"
+				}
+			]
+		},
+		{
+			"name": "NAVNEET CHAUDHARY",
+			"roll_number": "1714310114",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4949",
+			"classes_total": 166,
+			"classes_total_attended": 117,
+			"percentage": 70.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 25,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4949/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 28,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4949/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 34,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4949/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 28,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4949/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4949/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4949/2235"
+				}
+			]
+		},
+		{
+			"name": "NIKHIL GARG",
+			"roll_number": "1714310115",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5012",
+			"classes_total": 166,
+			"classes_total_attended": 60,
+			"percentage": 36.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 12,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5012/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 12,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5012/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 32,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5012/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 4,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5012/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5012/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5012/2235"
+				}
+			]
+		},
+		{
+			"name": "NIKHIL YADAV",
+			"roll_number": "1714310117",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5022",
+			"classes_total": 166,
+			"classes_total_attended": 118,
+			"percentage": 71.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 23,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5022/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 31,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5022/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5022/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 27,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5022/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5022/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5022/2235"
+				}
+			]
+		},
+		{
+			"name": "NIKITA SHARMA",
+			"roll_number": "1714310118",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4920",
+			"classes_total": 166,
+			"classes_total_attended": 157,
+			"percentage": 94.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 37,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4920/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 38,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4920/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4920/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 37,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4920/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4920/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4920/2235"
+				}
+			]
+		},
+		{
+			"name": "NITIN YADAV",
+			"roll_number": "1714310119",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5080",
+			"classes_total": 166,
+			"classes_total_attended": 61,
+			"percentage": 36.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 10,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5080/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 8,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5080/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 34,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5080/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 6,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5080/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5080/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5080/2235"
+				}
+			]
+		},
+		{
+			"name": "PALAK SINGHAL",
+			"roll_number": "1714310120",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5337",
+			"classes_total": 166,
+			"classes_total_attended": 59,
+			"percentage": 35.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 21,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5337/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 15,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5337/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 18,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5337/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 4,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5337/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5337/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5337/2235"
+				}
+			]
+		},
+		{
+			"name": "PRABHAT SINGH YADAV",
+			"roll_number": "1714310122",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5067",
+			"classes_total": 166,
+			"classes_total_attended": 54,
+			"percentage": 32.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 12,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5067/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 5,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5067/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 22,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5067/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 13,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5067/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5067/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5067/2235"
+				}
+			]
+		},
+		{
+			"name": "PRACHI SINGH",
+			"roll_number": "1714310123",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5542",
+			"classes_total": 166,
+			"classes_total_attended": 87,
+			"percentage": 52.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 16,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5542/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 15,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5542/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 34,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5542/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 21,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5542/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5542/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5542/2235"
+				}
+			]
+		},
+		{
+			"name": "PRADEEP SINGH",
+			"roll_number": "1714310124",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5122",
+			"classes_total": 166,
+			"classes_total_attended": 117,
+			"percentage": 70.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 28,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5122/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 29,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5122/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 26,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5122/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 28,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5122/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5122/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5122/2235"
+				}
+			]
+		},
+		{
+			"name": "PRAKHAR RAJ",
+			"roll_number": "1714310127",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5059",
+			"classes_total": 166,
+			"classes_total_attended": 154,
+			"percentage": 92.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 32,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5059/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 37,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5059/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 37,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5059/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 40,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5059/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5059/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5059/2235"
+				}
+			]
+		},
+		{
+			"name": "PRANJALI MALIK",
+			"roll_number": "1714310128",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4906",
+			"classes_total": 166,
+			"classes_total_attended": 117,
+			"percentage": 70.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 28,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4906/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 24,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4906/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 32,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4906/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 26,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4906/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4906/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4906/2235"
+				}
+			]
+		},
+		{
+			"name": "PRASHANT CHOUBEY",
+			"roll_number": "1714310129",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5199",
+			"classes_total": 166,
+			"classes_total_attended": 73,
+			"percentage": 43.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 17,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5199/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 19,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5199/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 24,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5199/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 11,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5199/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5199/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5199/2235"
+				}
+			]
+		},
+		{
+			"name": "PRASHANT RAI",
+			"roll_number": "1714310131",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5157",
+			"classes_total": 166,
+			"classes_total_attended": 74,
+			"percentage": 44.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 18,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5157/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 13,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5157/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 27,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5157/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 12,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5157/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5157/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5157/2235"
+				}
+			]
+		},
+		{
+			"name": "PRATAP SINGH",
+			"roll_number": "1714310132",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5394",
+			"classes_total": 166,
+			"classes_total_attended": 63,
+			"percentage": 37.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 17,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5394/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 14,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5394/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 15,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5394/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 15,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5394/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5394/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5394/2235"
+				}
+			]
+		},
+		{
+			"name": "PRIYAM CHAUHAN",
+			"roll_number": "1714310134",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5173",
+			"classes_total": 166,
+			"classes_total_attended": 93,
+			"percentage": 56.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 22,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5173/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 17,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5173/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 25,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5173/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 24,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5173/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5173/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5173/2235"
+				}
+			]
+		},
+		{
+			"name": "PRIYANKA .",
+			"roll_number": "1714310135",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5167",
+			"classes_total": 166,
+			"classes_total_attended": 94,
+			"percentage": 56.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 25,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5167/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 15,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5167/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5167/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 18,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5167/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5167/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5167/2235"
+				}
+			]
+		},
+		{
+			"name": "PRIYANSHI JINDAL",
+			"roll_number": "1714310136",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5282",
+			"classes_total": 166,
+			"classes_total_attended": 117,
+			"percentage": 70.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 30,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5282/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 28,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5282/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 35,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5282/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 20,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5282/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5282/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5282/2235"
+				}
+			]
+		},
+		{
+			"name": "PULKIT SINGHAL",
+			"roll_number": "1714310138",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5538",
+			"classes_total": 166,
+			"classes_total_attended": 129,
+			"percentage": 77.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 33,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5538/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 31,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5538/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5538/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 26,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5538/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5538/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5538/2235"
+				}
+			]
+		},
+		{
+			"name": "RADHIKA SHARMA",
+			"roll_number": "1714310139",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5078",
+			"classes_total": 166,
+			"classes_total_attended": 92,
+			"percentage": 55.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 18,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5078/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 15,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5078/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5078/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 17,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5078/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5078/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5078/2235"
+				}
+			]
+		},
+		{
+			"name": "RAGHAV KUMAR JHA",
+			"roll_number": "1714310140",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5126",
+			"classes_total": 166,
+			"classes_total_attended": 105,
+			"percentage": 63.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 18,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5126/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 29,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5126/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 19,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5126/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 32,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5126/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5126/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5126/2235"
+				}
+			]
+		},
+		{
+			"name": "RAGHAV RASTOGI",
+			"roll_number": "1714310141",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5104",
+			"classes_total": 166,
+			"classes_total_attended": 123,
+			"percentage": 74.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 31,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5104/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 29,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5104/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 30,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5104/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 29,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5104/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5104/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 2,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5104/2235"
+				}
+			]
+		},
+		{
+			"name": "RAHUL PANDEY",
+			"roll_number": "1714310142",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5187",
+			"classes_total": 166,
+			"classes_total_attended": 45,
+			"percentage": 27.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 12,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5187/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 6,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5187/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 20,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5187/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 6,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5187/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5187/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5187/2235"
+				}
+			]
+		},
+		{
+			"name": "RAHUL RAJ",
+			"roll_number": "1714310143",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5193",
+			"classes_total": 166,
+			"classes_total_attended": 105,
+			"percentage": 63.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 30,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5193/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 21,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5193/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 31,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5193/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 19,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5193/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5193/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5193/2235"
+				}
+			]
+		},
+		{
+			"name": "RAHUL SINGH",
+			"roll_number": "1714310144",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5028",
+			"classes_total": 166,
+			"classes_total_attended": 101,
+			"percentage": 60.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 22,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5028/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 21,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5028/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 34,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5028/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 19,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5028/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5028/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5028/2235"
+				}
+			]
+		},
+		{
+			"name": "RIDIT CHAUDHARY",
+			"roll_number": "1714310148",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5072",
+			"classes_total": 166,
+			"classes_total_attended": 99,
+			"percentage": 59.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 23,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5072/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 22,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5072/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 30,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5072/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 21,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5072/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5072/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5072/2235"
+				}
+			]
+		},
+		{
+			"name": "RITIKA GOVIL",
+			"roll_number": "1714310150",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE5040",
+			"classes_total": 166,
+			"classes_total_attended": 91,
+			"percentage": 54.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 23,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5040/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 22,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5040/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 16,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5040/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 26,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5040/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5040/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5040/2235"
+				}
+			]
+		},
+		{
+			"name": "RIYANSHI GOSWAMI",
+			"roll_number": "1714310151",
+			"sub_section": "CSE2",
+			"college_id": "A2017CSE4984",
+			"classes_total": 166,
+			"classes_total_attended": 77,
+			"percentage": 46.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 17,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/4984/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 11,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/4984/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 30,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/4984/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 18,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/4984/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/4984/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/4984/2235"
+				}
+			]
+		},
+		{
+			"name": "CHANDRA PRAKASH SINGH",
+			"roll_number": "1714313022",
+			"sub_section": "CSE2",
+			"college_id": "A2017IT5481",
+			"classes_total": 166,
+			"classes_total_attended": 102,
+			"percentage": 61.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 20,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5481/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 22,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5481/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 33,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5481/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 22,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5481/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 5,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5481/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5481/2235"
+				}
+			]
+		},
+		{
+			"name": "MUDITH UPADHYAY",
+			"roll_number": "1714313052",
+			"sub_section": "CSE2",
+			"college_id": "A2017IT5030",
+			"classes_total": 166,
+			"classes_total_attended": 126,
+			"percentage": 75.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 26,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5030/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 26,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5030/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 36,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5030/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 31,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5030/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5030/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 3,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5030/2235"
+				}
+			]
+		},
+		{
+			"name": "NIKITA GUPTA",
+			"roll_number": "1714313057",
+			"sub_section": "CSE2",
+			"college_id": "A2017IT5365",
+			"classes_total": 166,
+			"classes_total_attended": 76,
+			"percentage": 45.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 15,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5365/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 15,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5365/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 32,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5365/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 13,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5365/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5365/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 0,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5365/2235"
+				}
+			]
+		},
+		{
+			"name": "PRABHAT KUMAR GUPTA",
+			"roll_number": "1714313064",
+			"sub_section": "CSE2",
+			"college_id": "A2017IT5369",
+			"classes_total": 166,
+			"classes_total_attended": 109,
+			"percentage": 65.0,
+			"attendances": [
+				{
+					"total_classes": 37,
+					"attended_classes": 28,
+					"subject_id": "RCS-071",
+					"more_details_url": "#/subject_wise_student_attendence/5369/2123"
+				},
+				{
+					"total_classes": 40,
+					"attended_classes": 28,
+					"subject_id": "RCS-702",
+					"more_details_url": "#/subject_wise_student_attendence/5369/1634"
+				},
+				{
+					"total_classes": 38,
+					"attended_classes": 20,
+					"subject_id": "RCS-075",
+					"more_details_url": "#/subject_wise_student_attendence/5369/2121"
+				},
+				{
+					"total_classes": 41,
+					"attended_classes": 28,
+					"subject_id": "RCS-701",
+					"more_details_url": "#/subject_wise_student_attendence/5369/684"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 4,
+					"subject_id": "RCS-753",
+					"more_details_url": "#/subject_wise_student_attendence/5369/178"
+				},
+				{
+					"total_classes": 5,
+					"attended_classes": 1,
+					"subject_id": "ROE074",
+					"more_details_url": "#/subject_wise_student_attendence/5369/2235"
+				}
+			]
+		}
+	]
+}
