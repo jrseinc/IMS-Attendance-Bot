@@ -31,32 +31,47 @@ const data = attendanceJsonFile.attendance;
 
 //function to get the current user attendance attendance
 const myAttendance = async function(ctx){
-    //check if the users chat id exist in the database
-    // const chatID = ctx.chat.id;
-	// await IDMap.find({chatID : chatID })
-	// .then(data => {
-	// 	console.log(`chatID: ${chatID}, is trying to access attendance (self) of ${data[0].collegeID}`);
-	// 	getAttendance(ctx, data[0].collegeID.toUpperCase());
-	// });
-	
+	//check if the users chat id exist in the database
+	console.log(ctx.chosenInlineResult);
+    const chatID = ctx.chat.id;
+		await IDMap.find({chatID : chatID })
+		.then(data => {
+			console.log(`chatID: ${chatID}, is trying to access attendance (self) of ${data[0].collegeID}`);
+			getAttendance(ctx, data[0].collegeID.toUpperCase());
+		})
+		.catch(err=> {
+			ctx.reply("Can't find any associated College ID. Please use /SetID for registering your college.");
+			console.log("!!!CRASH 🔥: " + err.message);
+		});
 }
 
 //function to save collegeID the the current user to the database
 const saveData = function (target){
 	//validate the college id in target before saving to database
-	const IDcontainer = new IDMap({
-		_id: new mongoose.Types.ObjectId(),
-		chatID : target.chatID,
-		collegeID : target.collegeID
-	}); 
-	IDcontainer
-	.save()
-	.then(result => {
-		console.log(result);	
-	})
-	.catch(err => {
-		console.log(err);
+
+	const filter = {chatID : target.chatID};
+	const update = {collegeID : target.collegeID};
+
+	IDMap.findOneAndUpdate(filter, update, {
+		new: true,
+		upsert: true
+	}).then(result =>{
+		console.log(result);
 	});
+
+	// 	const IDcontainer = new IDMap({
+// 		_id: new mongoose.Types.ObjectId(),
+// 		chatID : target.chatID,
+// 		collegeID : target.collegeID
+// 	}); 
+// 	IDcontainer
+// 	.save()
+// 	.then(result => {
+// 		console.log(result);	
+// 	})
+// 	.catch(err => {
+// 		console.log(err);
+// 	});
 }
 
 const assignEmoji = function(value){
@@ -72,43 +87,45 @@ const assignEmoji = function(value){
 	return emoji;
 }
 
+
 //function to get attendance for the user with provided target college ID
 const getAttendance = function(ctx, targetCollegeID){
-	attendanceMap.find({college_id : targetCollegeID}, (err, data) => {
-		if(err)
-			console.log(err);
-		else{
-			attendanceData = data[0];
-			// console.log(attendanceData);
 
-			const overallAttendanceEmoji = assignEmoji(attendanceData.percentage);
+	attendanceMap.find({college_id : targetCollegeID})
+	.then(data => {
+		attendanceData = data[0];
 
-			// console.log(attendanceData["attendances	"]);
+		const overallAttendanceEmoji = assignEmoji(attendanceData.percentage);
 
-			let introMsg = `Name: ${attendanceData.name}
-			College ID: ${attendanceData.college_id}
-			Roll Number: ${attendanceData.roll_number}\n			
-			Total Classes: ${attendanceData.classes_total}
-			Classes Attended: ${attendanceData.classes_total_attended}
-			Overall Percentage: ${attendanceData.percentage}% ${overallAttendanceEmoji}\n
-			
-			Subject Wise Attendance\n\n`;
+		// console.log(attendanceData["attendances	"]);
+		ctx.reply(`Trying to fetch data for ${targetCollegeID} 👨‍🚀`); 
+		let introMsg = `Name: ${attendanceData.name}
+		College ID: ${attendanceData.college_id}
+		Roll Number: ${attendanceData.roll_number}\n			
+		Total Classes: ${attendanceData.classes_total}
+		Classes Attended: ${attendanceData.classes_total_attended}
+		Overall Percentage: ${attendanceData.percentage}% ${overallAttendanceEmoji}\n
 
-			let detailMsg = '';
-			
-			const subjectAttendanceList = attendanceData["attendances"];
-			for(const item of subjectAttendanceList){
-				let tempMsg = `${assignEmoji((item.attended_classes/item.total_classes)*100)} Subject Code: ${item.subject_id}
-				Total Classes: ${item.total_classes}
-				Attended: ${item.attended_classes}
-				Percentage: ${((item.attended_classes/item.total_classes)*100).toFixed(2)}%\n\n`;
-				detailMsg = detailMsg + tempMsg + " ";
-			}
-			introMsg = introMsg + detailMsg;
-			ctx.reply(introMsg);
+		Subject Wise Attendance\n\n`;
+
+		let detailMsg = '';
+
+		const subjectAttendanceList = attendanceData["attendances"];
+		for(const item of subjectAttendanceList){
+			let tempMsg = `${assignEmoji((item.attended_classes/item.total_classes)*100)} Subject Code: ${item.subject_id}
+			Total Classes: ${item.total_classes}
+			Attended: ${item.attended_classes}
+			Percentage: ${((item.attended_classes/item.total_classes)*100).toFixed(2)}%\n\n`;
+			detailMsg = detailMsg + tempMsg + " ";
 		}
-	
-	});
+		introMsg = introMsg + detailMsg;
+		ctx.reply(introMsg);
+		}
+	).catch(err =>{
+		ctx.reply(`Woops! No record found for College ID: ~~${targetCollegeID}~~. 😖 Make sure you are entering correct College ID. To reset your default ID use /setID. If the problem still presist please contact the dev @jrseinc.`);
+		console.log("!!!CRASH 🔥: " + err.message);
+	})
+
 };
 
 //conversation block to store current user collegeID
@@ -143,7 +160,7 @@ const setID = new WizardScene(
 	setID_StepHandler,
 	async (ctx) => {
 		ctx.reply("Thank you your college id will be updated shortly 🚀");
-		await saveData({
+		saveData({
 			chatID : ctx.wizard.state.IDData.chatID,
 			collegeID : ctx.wizard.state.IDData.collegeID
 		}); 
@@ -162,9 +179,8 @@ const getElseID = new WizardScene(
 	},
 	async (ctx) => {
 		collegeID = ctx.message.text;
-		ctx.reply(`Trying to fetch data for ${collegeID} 👨‍🚀`); 
 		console.log(`chatID: ${ctx.chat.id}, is trying to access attendance (else) of ${collegeID}`);
-		await getAttendance(ctx, collegeID.toUpperCase());
+		getAttendance(ctx, collegeID.toUpperCase());
 		return ctx.scene.leave();
 	}
 	
@@ -190,15 +206,15 @@ bot.command(['MyAttendance', 'myattendance'], (ctx) => myAttendance(ctx));
 //this is for the attendance of a different student 
 const getElseIDStage = new Stage([getElseID]);
 bot.use(getElseIDStage.middleware());
-bot.command(['ElseAttendance', 'elseattendance'], (ctx) => {
+bot.command(['ElseAttendance', 'elseattendance', 'elseAttendance'], (ctx) => {
 	ctx.scene.enter('getElseId_Enter');
 })
 
 //this is for setting the ID of the current user
 const setIDStage = new Stage([setID]);
 bot.use(setIDStage.middleware());
-bot.command(['SetID', 'setid'], (ctx) => {
+bot.command(['SetID', 'setid', 'setID'], (ctx) => {
     ctx.scene.enter('setID_Enter');
 });
 
-bot.launch()
+bot.launch();
